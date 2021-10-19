@@ -61,7 +61,7 @@ int			get_next_line(const int fd, char **line)
 
 // Example 2.
 
-include "get_next_line.h"
+# include "get_next_line.h"
 
 int		ft_new_line(char **s, char **line, int fd, int ret)
 {
