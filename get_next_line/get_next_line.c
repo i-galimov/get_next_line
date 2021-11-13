@@ -51,7 +51,7 @@ char	*ft_get_start(char *str)
 	return (res);
 }
 
-char	*get_next_line(int fd)
+char	*ft_get_next_line(int fd)
 {
 	char		*res;
 	char		*buf;
