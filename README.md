@@ -10,46 +10,24 @@
 * [**Тестер (актуально на декабрь 2021)**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/gnlTester)
 * [**Функция main для проекта**](https://github.com/i-galimov/get_next_line/blob/main/get_next_line/main.c)
 ---
-### [Пример кода](https://github.com/i-galimov/school21/blob/main/rev_print.c) 
-> *Это не баг, а фича*
+### [Пример кода](https://github.com/i-galimov/get_next_line/blob/main/get_next_line/My_get_next_line/get_next_line.c)
+> *KISS (акроним для «Keep it simple, stupid» — «Делай проще, тупица»)*
 ```
-#include <unistd.h>
-#include <stdio.h>
-
-int	ft_strlen(char *str)
+char	*get_next_line(int fd)
 {
-	int	i;
+	char		*line;
+	static char	*str;
 
-	i = 0;
-	while(str[i])
-	{
-		i++;
-	}
-	return (i);
+	if (fd < 0 || BUFFER_SIZE <= 0)
+		return (NULL);
+	str = ft_read_line(fd, str);
+	if (!str)
+		return (NULL);
+	line = ft_get_line(str);
+	str = ft_save_nextstr(str);
+	return (line);
 }
 
-char *ft_revprint(char *str)
-{
-	int	count;
-	
-	count = ft_strlen(str);
-	while(count > 0)
-	{
-		write(1, &str[count - 1], 1);
-		count--;
-	}
-	write(1, "\n", 1);
-	return (str);
-}
-
-int	main(int argc, char **argv)
-{
-	if (argc != 2)
-		write(1, "\n", 1);
-	else
-		ft_revprint(argv[1]);
-}
-```
 ********
 > ***Корабль не тонет, когда он в воде, он тонет, когда вода в нём.***
 > 
