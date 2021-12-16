@@ -1,4 +1,4 @@
-# Проект GNL (Get_next_line) - Ecole 42
+# Проект Get_next_line (Ecole 42)
 
 ### Содержание
 > *Здесь есть все, что нужно*
