@@ -27,7 +27,7 @@ char	*get_next_line(int fd)
 	str = ft_save_nextstr(str);
 	return (line);
 }
-
+```
 ********
 > ***Корабль не тонет, когда он в воде, он тонет, когда вода в нём.***
 > 
