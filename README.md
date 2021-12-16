@@ -1,7 +1,7 @@
 # Проект (Ecole 42) Get_next_line 
 
 ### Содержание
-> *Здесь есть все, что нужно*
+> *Здесь есть все, что нужно, чтобы понять GNL, но недостаточно чтобы понять жизнь*
 * [**Моя Версия**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/My_get_next_line)
 * [**Пример 1**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/get_next_line1)
 * [**Пример 2**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/get_next_line2)
