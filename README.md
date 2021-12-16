@@ -11,7 +11,7 @@
 * [**Функция main для проекта**](https://github.com/i-galimov/get_next_line/blob/main/get_next_line/main.c)
 ---
 ### [Пример кода](https://github.com/i-galimov/get_next_line/blob/main/get_next_line/My_get_next_line/get_next_line.c)
-> *KISS (акроним для «Keep it simple, stupid» — «Делай проще, тупица»)*
+> *KISS («Keep it simple, stupid» — «Делай проще, тупица»)*
 ```
 char	*get_next_line(int fd)
 {
