@@ -7,6 +7,7 @@
 * [**Пример 2**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/get_next_line2)
 * [**Пример 3**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/get_next_line3)
 * [**Пример 4**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/get_next_line4)
+* [**Короткий вариант, пример**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/small_gnl)
 * [**Тестер (актуально на декабрь 2021)**](https://github.com/i-galimov/get_next_line/tree/main/get_next_line/gnlTester)
 * [**Функция main для проекта**](https://github.com/i-galimov/get_next_line/blob/main/get_next_line/main.c)
 ---
